@@ -1,11 +1,12 @@
 # dependencies
 /node_modules
 /.pnp
-/.txt
+.txt
 .pnp.js
 
 # testing
 /coverage
+data.txt
 
 # production
 /build
