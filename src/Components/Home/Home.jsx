@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import HomePage from "./../../assets/HomePage.jpg";
 import { Button } from 'react-bootstrap';
 import { InputGroup } from 'react-bootstrap';
