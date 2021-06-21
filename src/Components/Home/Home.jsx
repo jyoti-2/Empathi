@@ -1,46 +1,59 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Typewriter from "typewriter-effect";
 import HomePage from "./../../assets/HomePage.jpg";
+import { Button } from 'react-bootstrap';
+import { InputGroup } from 'react-bootstrap';
+import { FormControl } from 'react-bootstrap';
+// import { DropdownButton } from 'react-bootstrap';
+// import { Dropdown} from 'react-bootstrap';
 import './Home.css';
 
 class Home extends React.Component{
     render() {
         return (
-        <div className="landing-container">
-                <h1 className="landing-header"> Find the Right Doctor, Get the care you deserve!</h1>
-                {/* <div className="typewriter-container">
-                    <Typewriter
-                        options={{
-                            strings: ["Get", "the", "care", "you", "deserve"],
-                            autoStart: true,
-                            loop: true,
-                        }}
-                    />
-                </div> */}
-
-                <div className="head-btn">
-                    <Link to="/doctors" className='first-btn'>
-                        <p className="btn-text"> Enter a doctors name </p>
-                    </Link>
-                    <Link to="/doctors" className= "second-btn">
-                        <p className="btn-text"> Enter a postcode </p>
-                    </Link>
-                    <Link to="/doctors" className="third-btn">
-                        <p className="btn-text"> Speciality </p>
-                    </Link>
-                    <Link to="/doctors" className="fourth-btn">
-                        <p className="btn-text"> Find A Doctor </p>
-                    </Link>
-                    
-                </div>
+            <div className="landing-container">
+                <div className="landing-box">
                 <img
                     src={HomePage}
                     className='landing-image'
                     alt=''
                 />
-           
+                <div className="landing-header">
+                Find the Right Doctor, Get the care you deserve!
+                    </div>
+                    
+                </div>
+            
+                <div className="landing-para">
+                <p> Choose doctors based on patient ratings. Search by what matters most to you. </p>
+                </div>
+
+                <InputGroup className="mb-3">
+                    <InputGroup.Prepend>
+                    <Button variant="danger">Find the Doctors</Button>
+                        
+                    </InputGroup.Prepend>
+                    <FormControl placeholder ="Enter the Doctor Name" />
+                    <FormControl placeholder =" Speciality" />
+                    <FormControl placeholder="Condition" />
+                    <FormControl placeholder="City" />
+                    
+                    </InputGroup>
+                   
+                    
+
+                <Button href="/doctors"  variant="outline-danger" size="lg">
+                    Enter
+                </Button>
+                
+
+          
+
+    
+                    
+               
             </div>
+  
       
         );
     }
