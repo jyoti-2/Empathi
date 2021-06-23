@@ -27,3 +27,7 @@
 
 [https://react-bootstrap.github.io/getting-started/introduction]
 `npm install react-bootstrap bootstrap@4.6.0`
+
+### react-dropdown-input
+
+npm i react-dropdown-input

@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   font-family: "Noto Sans", sans-serif;
-  margin: 0;
+  margin: 5px;
   padding: 0;
   flex-wrap: wrap;
 }
@@ -19,66 +19,63 @@
   align-items: flex-end;
   justify-content: flex-end;
   width: 100%;
-  max-height: 500px;
-  max-width: 500px;
+  max-height: 700px;
+  max-width: 600px;
   float: right;
 }
 
 .landing-header {
   display: flex;
   flex-direction: row;
-  font-family: "Noto Serif", serif;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
-  font-size: 60px;
-  font-weight: bolder;
+  font-size: 50px;
+  font-weight: 900;
   letter-spacing: 0;
-  margin: 150px 20px 0px 40px;
+  margin: 123px 20px 0px 40px;
   color: #212529;
 }
 
 .landing-para {
   font-family: "Noto Sans", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  margin: 10px auto;
-  font-style: normal;
-  text-align: center;
-  letter-spacing: 0;
-  color: #212529;
-}
-
-.header-btn {
-  display: flex;
-  flex: auto;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 10px 10px;
-  padding: 20px;
-}
-
-.first-btn,
-.second-btn,
-.third-btn,
-.fourth-btn {
-  display: flex;
-  background-color: #dc3545;
-  flex-direction: row;
-  padding: 0px 20px;
-  height: 52px;
-  left: 0px;
-  top: 0px;
-  text-decoration: none;
-  border-radius: 25px;
-  margin: 4px;
-}
-
-.btn-text {
-  font-style: normal;
-  color: white;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 25px;
-  line-height: 16px;
-  letter-spacing: 0.2px;
+  margin: 0px auto;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0;
+  margin: 15px 15px 0px 40px;
+  color: #dc3545;
+}
+
+.search-box {
+  background-color: white;
+  height: 60px;
+  width: 70%;
   text-align: center;
+  justify-content: center;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+select {
+  width: 100%;
+  border-radius: 25px;
+  height: 60px;
+  outline: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.city-search-box {
+  background-color: white;
+  padding-left: 0%;
+  padding-right: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.submit-button {
+  border-radius: 40px;
+  height: 60px;
 }

@@ -24,14 +24,6 @@ const NavBar = () => {
                             spy={true}
                             duration={1000}
                             to="/">
-                <a className= "nav-link" href='/'> Home </a>
-                        </Link>
-                        <Link
-                            activeClass="active"
-                            smooth={true}
-                            offset={-90}
-                            duration={1000}
-                            to="/about">
                 <a className= "nav-link" href ='/about'>About</a>
                         </Link>
                         <Link
@@ -39,10 +31,10 @@ const NavBar = () => {
                             smooth={true}
                             offset={-90}
                             duration={1000}
-                            to="/services">
-                <a className= "nav-link" href='/services'>Services</a>
+                            to="/login">
+                <a className= "nav-link" href='/login'>Login/Signup</a>
             </Link>
-                        <Link
+                        {/* <Link
                             activeClass="active"
                             smooth={true}
                             offset={-90}
@@ -50,7 +42,7 @@ const NavBar = () => {
                             to="/doctors">
                 <a className= "nav-link" href='./doctors'>Doctors</a>
             </Link>
-                        
+                         */}
             </Nav>
                         
             

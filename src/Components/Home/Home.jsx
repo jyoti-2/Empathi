@@ -1,13 +1,25 @@
 import React from 'react';
 import HomePage from "./../../assets/HomePage.jpg";
 import { Button } from 'react-bootstrap';
-import { InputGroup } from 'react-bootstrap';
-import { FormControl } from 'react-bootstrap';
-// import { DropdownButton } from 'react-bootstrap';
-// import { Dropdown} from 'react-bootstrap';
 import './Home.css';
 
 class Home extends React.Component{
+
+   constructor(props) {
+         super(props);
+            
+         this.handleChange = this.handleChange.bind(this);
+         this.handleSubmit = this.handleSubmit.bind(this);
+       }
+    
+       handleChange(event) {
+       this.setState({value: event.target.value});
+       }
+    
+       handleSubmit(event) {
+         event.preventDefault();
+     }
+    
     render() {
         return (
             <div className="landing-container">
@@ -18,42 +30,37 @@ class Home extends React.Component{
                     alt=''
                 />
                 <div className="landing-header">
-                Find the Right Doctor, Get the care you deserve!
-                    </div>
+                Find the right doctor. For the care you deserve.
+                </div>
                     
+                <div className="landing-para">
+                <p> Choose doctors based on patient ratings. Ratings that you can trust. Search by what matters most to you. </p>
+                </div>
+            </div>
+
+                <input
+                    type='text'
+                    placeholder='Search by doctor name'
+                    className='search-box'
+                    autoComplete='off'
+                />
+
+                <div className="city-search-box">
+                <form onSubmit={this.handleSubmit} >
+                <select onChange={this.handleChange} >
+                    <option default>Search by city/pincode</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Patna">Patna</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                </select>
+                </form>
                 </div>
             
-                <div className="landing-para">
-                <p> Choose doctors based on patient ratings. Search by what matters most to you. </p>
-                </div>
-
-                <InputGroup className="mb-3">
-                    <InputGroup.Prepend>
-                    <Button variant="danger">Find the Doctors</Button>
-                        
-                    </InputGroup.Prepend>
-                    <FormControl placeholder ="Enter the Doctor Name" />
-                    <FormControl placeholder =" Speciality" />
-                    <FormControl placeholder="Condition" />
-                    <FormControl placeholder="City" />
-                    
-                    </InputGroup>
-                   
-                    
-
-                <Button href="/doctors"  variant="outline-danger" size="lg">
-                    Enter
-                </Button>
-                
-
-          
-
-    
-                    
-               
-            </div>
-  
-      
+                <Button href="/doctors"  variant="outline-danger" size="lg" className="submit-button">
+                    Get Started
+                </Button> 
+            </div>      
         );
     }
 }
