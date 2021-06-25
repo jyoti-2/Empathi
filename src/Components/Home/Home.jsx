@@ -48,7 +48,7 @@ class Home extends React.Component{
                 <div className="city-search-box">
                 <form onSubmit={this.handleSubmit} >
                 <select onChange={this.handleChange} >
-                    <option default>Search by city/pincode</option>
+                    <option default>Search by city</option>
                     <option value="Mumbai">Mumbai</option>
                     <option value="Delhi">Delhi</option>
                     <option value="Patna">Patna</option>
@@ -57,8 +57,10 @@ class Home extends React.Component{
                 </form>
                 </div>
             
-                <Button href="/doctors"  variant="outline-danger" size="lg" className="submit-button">
+                <Button href="/doctors"  variant="danger" size="lg" className="submit-button">
+                    <div className="submit-text">
                     Get Started
+                    </div>  
                 </Button> 
             </div>      
         );
