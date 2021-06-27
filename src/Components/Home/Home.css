@@ -15,11 +15,11 @@
 .landing-image {
   display: flex;
   flex-direction: row;
-  margin: 60px 20px 0px 30px;
+  margin: 60px 20px 0px 10px;
   align-items: flex-end;
   justify-content: flex-end;
   width: 100%;
-  max-height: 700px;
+  max-height: 800px;
   max-width: 650px;
   float: right;
 }
@@ -32,7 +32,7 @@
   font-size: 50px;
   font-weight: 900;
   letter-spacing: 0;
-  margin: 123px 20px 0px 40px;
+  margin: 110px 20px 0px 45px;
   color: #212529;
 }
 
@@ -51,13 +51,14 @@
 .search-box {
   background-color: white;
   height: 60px;
-  width: 40%;
+  width: 60%;
   text-align: left;
   padding: 15px;
   float: left;
   border-radius: 25px;
   outline: none;
-  border: 1px solid #dc3545;
+  border: 2px solid #dc3545;
+  margin-left: 5px;
 }
 
 .search-box:hover {
@@ -69,7 +70,7 @@ select {
   border-radius: 25px;
   height: 60px;
   outline: none;
-  border: 1px solid #dc3545;
+  border: 2px solid #dc3545;
 }
 
 .city-search-box {
