@@ -40,7 +40,7 @@ const Signup = () => {
                 
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label size="lg" >Email Address</Form.Label>
-                    <Form.Control size="lg" type="email" placeholder="xyz@google.com" className="text-container"/>
+                    <Form.Control size="lg" type="email" placeholder="name@example.com" className="text-container"/>
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>

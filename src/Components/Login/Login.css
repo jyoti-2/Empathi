@@ -8,7 +8,7 @@
   margin-right: 400px;
   margin-bottom: 100px;
   width: 600px;
-  height: 800px;
+  height: 850px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -39,5 +39,15 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-bottom: 0px;
+}
+
+.signup-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: black;
   padding-bottom: 20px;
 }

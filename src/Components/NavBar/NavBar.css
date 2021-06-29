@@ -1,32 +1,58 @@
 .navbar-container {
   display: flex;
+  flex-direction: row;
   background-color: white;
-  margin: 0;
-  align-items: center;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  justify-content: space-between;
+  justify-content: space-around;
+  align-content: space-around;
 }
 
 .nav-left {
-  padding-left: 20px;
+  padding-left: 10px;
   font-weight: 390;
-  font-size: 2.3rem;
+  font-size: 30px;
   font-family: "Noto Sans", sans-serif;
   color: #dc3545;
   letter-spacing: 0px;
+}
+
+.nav-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 50px;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  float: left;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.nav-right::after {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  float: right;
+  align-items: flex-end;
+  justify-content: end;
 }
 
 .nav-link {
   text-decoration: none;
   color: black;
   position: relative;
-  display: inline-block;
+  display: inline-table;
   list-style: none;
   cursor: pointer;
-  margin: 0 10px;
+  margin: 0px;
   font-weight: 500;
   color: black;
   font-size: 20px;
+  padding: 5px;
   font-family: "Noto Sans", sans-serif;
   letter-spacing: 0px;
 }
@@ -47,4 +73,9 @@
 .nav-link:hover:before {
   width: 100%;
   height: 15px;
+}
+
+.bar {
+  background-color: #dc3545;
+  color: white;
 }
