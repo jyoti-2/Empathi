@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import './Home.css';
 import NavBar from '../NavBar/NavBar';
 import About from '../About/About';
-import Services from '../Services/Services';
+//import Services from '../Services/Services';
 import Doctors from '../Doctors/Doctors';
 class Home extends React.Component{
 
@@ -29,16 +29,17 @@ class Home extends React.Component{
             <div id="home" className="landing-container" >
                 <NavBar/>
                 <div className="landing-box">
-                <img
+                    <img
+                        data-aos="fade-right"
                     src={HomePage}
                     className='landing-image'
                     alt=''
                 />
-                <div className="landing-header">
+                <div className="landing-header" data-aos="fade-left">
                 Find the right doctor. For the care you deserve.
                 </div>
                     
-                <div className="landing-para">
+                <div className="landing-para" data-aos="zoom-out">
                 <p> Choose doctors based on patient ratings. Ratings that you can trust. Search by what matters most to you. </p>
                 </div>
             </div>

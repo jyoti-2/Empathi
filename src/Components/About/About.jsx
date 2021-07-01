@@ -17,10 +17,10 @@ const About = () => {
                     className='first-image'
                     alt=''
                 />
-        <p className='first-para' data-aos="fade-right" > Choosing a doctor for a loved one is one of the most important decisions you make. Empathi offers detailed profiles of doctors based on their qualifications, expertise & patient ratings so that you can discover right doctor & the right care for your family.</p>
+        <p className='first-para' data-aos="zoom-in" > Choosing a doctor for a loved one is one of the most important decisions you make. Empathi offers detailed profiles of doctors based on their qualifications, expertise & patient ratings so that you can discover right doctor & the right care for your family.</p>
             </div>
             <div className="second-container">
-                <p className='second-para' data-aos="fade-left"> Empathi's mission is to empower you, as a patient or a caregiver, by providing trustworthy information & knowledge about your health care. We do not have any promotional or sponsorhsip programs for doctors to list on our platform. The patient ratings on Empathi are provided by millions of registered users like yourselves. So you can trust every single doctor ratings on Empathi. </p>
+                <p className='second-para' data-aos="zoom-in"> Empathi's mission is to empower you, as a patient or a caregiver, by providing trustworthy information & knowledge about your health care. We do not have any promotional or sponsorhsip programs for doctors to list on our platform. The patient ratings on Empathi are provided by millions of registered users like yourselves. So you can trust every single doctor ratings on Empathi. </p>
             <img
                     data-aos="zoom-in"
                     src={about_2}
@@ -35,7 +35,7 @@ const About = () => {
                     className='third-image'
                     alt=''
                 />
-                <p className='third-para' data-aos="fade-right">Consulting with a doctor is not just a health issue but also an emotional & a private issue for many of us. At Empathi, we understand that. That is why, we have ratings for doctors across several parameters. Go ahead & choose.
+                <p className='third-para' data-aos="zoom-in">Consulting with a doctor is not just a health issue but also an emotional & a private issue for many of us. At Empathi, we understand that. That is why, we have ratings for doctors across several parameters. Go ahead & choose.
 </p>
                 </div>
         

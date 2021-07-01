@@ -1,28 +1,10 @@
 import React from 'react';
 // import logo from "./../../assets/logo.png";
 import './NavBar.css';
-import { Navbar,Nav, Button } from 'react-bootstrap';
+import { Navbar,Nav, InputGroup, FormControl, Button, Form} from 'react-bootstrap';
 import {Link} from "react-scroll";
-
-
-
 class NavBar extends React.Component{
 
-    constructor(props) {
-          super(props);
-             
-          this.handleChange = this.handleChange.bind(this);
-          this.handleSubmit = this.handleSubmit.bind(this);
-        }
-     
-        handleChange(event) {
-        this.setState({value: event.target.value});
-        }
-     
-        handleSubmit(event) {
-          event.preventDefault();
-      }
-     
     render() {
         return (
             <div className="nav-container">
@@ -33,28 +15,30 @@ class NavBar extends React.Component{
                         IdeaStart
                     </div>
 
-                    <div className="nav-center">
-                        <input
-                            type='text'
-                            placeholder='Search by doctor name'
-                            className='search-box-nav'
-                            autoComplete='off'
-                        />
+                                                
+                    <InputGroup className="nav-center">
+                    <FormControl
+                            placeholder="Search by doctor name"
+                            aria-label="Recipient's username"
+                            aria-describedby="basic-addon2"
+                            className= "text-container"
+                            />
+                            
+                    <Form.Control as="select" defaultValue="Search by city" className="text-container">
+                                    <option>Search by city</option>
+                                    <option>Mumbai</option>
+                                    <option >Delhi</option>
+                                    <option >Patna</option>
+                                    <option>Tamil Nadu</option>
+                    </Form.Control>
+                   
+                                
+                    <InputGroup.Append>
+                    <Button href = "/doctors" variant="outline-danger">Get Started</Button>
+                    </InputGroup.Append>
+                </InputGroup>
 
-                        <div className="search-box-second-nav">
-                        <form onSubmit={this.handleSubmit} >
-                            <select onChange={this.handleChange} >
-                                <option default>Search by city</option>
-                                <option value="Mumbai">Mumbai</option>
-                                <option value="Delhi">Delhi</option>
-                                <option value="Patna">Patna</option>
-                                <option value="Tamil Nadu">Tamil Nadu</option>
-                            </select>
-                            </form>
-                            </div>
-                    </div>
-
-
+                    <div className="nav-right">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='bar' />
                     <Navbar.Collapse id="rsponsive-navbar-nav">
                                
@@ -72,7 +56,7 @@ class NavBar extends React.Component{
                             smooth={true}
                             offset={-90}
                             duration={1000}>
-                            <a> About us </a>
+                            {/* <a className='sectionLink'> About us </a> */}
                         </Link>
                    
                         <Link activeClass="active"
@@ -94,20 +78,17 @@ class NavBar extends React.Component{
                    
             
                         <Nav.Link href="/login">Login/Signup</Nav.Link>
-         
-         
-                        {/* <Nav.Item>
-                            
-                <Nav.Link href="/login">Login/Signup</Nav.Link>
-            </Nav.Item>
-                    
-            <Nav.Item>
-                <Nav.Link href="/about">About</Nav.Link>
-                        </Nav.Item> */}
+    
+{/*                     
+                    <Nav.Item>
+                        <Nav.Link href="/about">About</Nav.Link>
+                    </Nav.Item> */}
                        
-                    </Navbar.Collapse>
+                        </Navbar.Collapse>
+                        </div>
            
                 </Navbar>
+                    
               
            
             
