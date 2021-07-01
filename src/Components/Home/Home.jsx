@@ -2,7 +2,10 @@ import React from 'react';
 import HomePage from "./../../assets/HomePage.jpg";
 import { Button } from 'react-bootstrap';
 import './Home.css';
-
+import NavBar from '../NavBar/NavBar';
+import About from '../About/About';
+import Services from '../Services/Services';
+import Doctors from '../Doctors/Doctors';
 class Home extends React.Component{
 
    constructor(props) {
@@ -22,7 +25,9 @@ class Home extends React.Component{
     
     render() {
         return (
-            <div className="landing-container">
+            
+            <div id="home" className="landing-container" >
+                <NavBar/>
                 <div className="landing-box">
                 <img
                     src={HomePage}
@@ -61,7 +66,10 @@ class Home extends React.Component{
                     <div className="submit-text">
                     Get Started
                     </div>  
-                </Button> 
+                </Button>
+                <About />
+                <Doctors />
+                {/* <Services/> */}
             </div>      
         );
     }

@@ -3,7 +3,10 @@ import './Services.css';
 
 const Services = () => {
     return (
-        <h1> I am the Services page </h1>
+        <div id = "services" className ="service-container">
+            <h1> Services that we provide:</h1>
+        </div>
+        
     );
 };
 
