@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route } from 'react-router-dom';
+import {HashRouter, Route } from 'react-router-dom';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Login from '../Login/Login';
@@ -14,7 +14,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <BrowserRouter basename={process.env.PUBLIC_URL}>
+                <HashRouter basename= {process.env.PUBLIC_URL}>
                     <div>
                         
                         <Route path='/home' exact component={Home}/>
@@ -23,8 +23,9 @@ class App extends React.Component {
                         <Route path='/services' exact component={Services} />
                         <Route path='/doctors' exact component={Doctors} />
                         <Route path='/signup' exact component={Signup}/>
+                    
                     </div>
-                </BrowserRouter>
+                </HashRouter>
             </div>
         );
     };
