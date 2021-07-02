@@ -14,7 +14,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <BrowserRouter basename='/ideastart'>
+                <BrowserRouter basename={process.env.PUBLIC_URL}>
                     <div>
                         
                         <Route path='/home' exact component={Home}/>
