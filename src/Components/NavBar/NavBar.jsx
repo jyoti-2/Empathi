@@ -77,7 +77,7 @@ class NavBar extends React.Component{
                         </Link> */}
                    
             
-                        <Nav.Link href="/#/login">Login/Signup</Nav.Link>
+                        <Nav.Link href="./#/login">Login/Signup</Nav.Link>
     
 {/*                     
                     <Nav.Item>
