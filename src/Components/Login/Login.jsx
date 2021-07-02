@@ -51,7 +51,7 @@ const Login = () => {
         </div>
       </Form>
       <div className="signup-link">
-      <p> Don't have an account? <a href = './signup'>Sign Up</a></p>
+      <p> Don't have an account? <a href = './#/signup'>Sign Up</a></p>
 
       </div>
     </div>

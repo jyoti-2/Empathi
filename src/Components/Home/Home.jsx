@@ -36,7 +36,7 @@ class Home extends React.Component{
                     alt=''
                 />
                 <div className="landing-header" data-aos="fade-left">
-                Find the right doctor. For the care you deserve.
+                       Find the right doctor.<br/>For the care you deserve.
                 </div>
                     
                 <div className="landing-para" data-aos="zoom-out">
