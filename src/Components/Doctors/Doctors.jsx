@@ -7,7 +7,7 @@ const Doctors = () => {
     return (
         <div id = "doctors" className="doctor-container" >
             <h1 className="header" data-aos="fade-down"> Consult Top Doctors. </h1>
-            <div className="first-container">
+            <div className="first-container-doc">
                 <div className="left-container">
                     <img
                         src={doc}
@@ -55,7 +55,7 @@ const Doctors = () => {
                 </Button>
                 </div>
             </div>
-            <div className="first-container">
+            <div className="first-container-doc">
                 <div className="left-container">
                     <img
                         src={doc}

@@ -3,9 +3,11 @@ import "./About.css";
 import about_1 from "./../../assets/about_1.jpg";
 import about_2 from "./../../assets/about_2.png";
 import about_3 from "./../../assets/about_3.png";
+import Footer from '../Footer/Footer';
 
 const About = () => {
     return (
+        <div className="include-footer">
         <div className="about-container">
             <div className="header" data-aos="fade-down">
                 About us
@@ -38,9 +40,10 @@ const About = () => {
                 <p className='third-para' data-aos="zoom-in">Consulting with a doctor is not just a health issue but also an emotional & a private issue for many of us. At Empathi, we understand that. That is why, we have ratings for doctors across several parameters. Go ahead & choose.
 </p>
                 </div>
-        
-            
         </div>
+            <Footer />
+            </div>
+        
 
     );
 };

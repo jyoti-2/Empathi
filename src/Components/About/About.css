@@ -25,9 +25,12 @@
   height: 60vh;
   align-items: center;
   margin: 20px 30px 40px 30px;
-  padding-bottom: 0%;
+  padding-bottom: 5%;
 }
 
+.third-container {
+  padding-bottom: 150px;
+}
 .first-image {
   display: flex;
   flex-direction: row;
