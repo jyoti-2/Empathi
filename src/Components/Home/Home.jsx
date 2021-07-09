@@ -68,7 +68,7 @@ class Home extends React.Component{
                 </form>
                 </div>
             
-                <Button href="/doctors"  variant="danger" size="lg" className="submit-button">
+                <Button href="./#/doctors"  variant="danger" size="lg" className="submit-button">
                     <div className="submit-text">
                     Get Started
                     </div>  

@@ -37,7 +37,7 @@ class NavBar extends React.Component{
                    
                                 
                     <InputGroup.Append>
-                    <Button href = "/doctors" variant="outline-danger">Get Started</Button>
+                    <Button href = "./#/doctors" variant="outline-danger">Get Started</Button>
                     </InputGroup.Append>
                 </InputGroup>
 
