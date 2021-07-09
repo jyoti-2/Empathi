@@ -17,10 +17,10 @@ const About = () => {
                     className='first-image'
                     alt=''
                 />
-        <p className='first-para' data-aos="zoom-in" > Choosing a doctor for a loved one is one of the most important decisions you make. Empathi offers detailed profiles of doctors based on their qualifications, expertise & patient ratings so that you can discover right doctor & the right care for your family.</p>
+        <p className='first-para' data-aos="zoom-in" > Choosing a doctor is one of the most important decisions you will make for a loved one. Empathi is building India’s 1st collection of detailed profiles of doctors based on their qualifications, expertise & patient ratings so that you can discover the RIGHT doctor for your loved ones.</p>
             </div>
             <div className="second-container">
-                <p className='second-para' data-aos="zoom-in"> Empathi's mission is to empower you, as a patient or a caregiver, by providing trustworthy information & knowledge about your health care. We do not have any promotional or sponsorhsip programs for doctors to list on our platform. The patient ratings on Empathi are provided by millions of registered users like yourselves. So you can trust every single doctor ratings on Empathi. </p>
+                <p className='second-para' data-aos="zoom-in"> Empathi's aims to empower you, as a patient or a caregiver, by providing trustworthy & objective information about your health care. The patient ratings on Empathi are provided by registered users like you with protocols to filter unwarranted/irrelevant posts. So you can trust every single doctor rating on Empathi.</p>
             <img
                     data-aos="zoom-in"
                     src={about_2}

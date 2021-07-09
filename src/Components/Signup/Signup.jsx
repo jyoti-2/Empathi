@@ -1,7 +1,8 @@
 import React from 'react';
 import './Signup.css';
 import signup from './../../assets/signup.png';
-import { Form, Button, Col } from 'react-bootstrap';
+import { Form, Button, Col} from 'react-bootstrap';
+
 
 const Signup = () => {
     return (

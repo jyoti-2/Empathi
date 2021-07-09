@@ -30,16 +30,15 @@ class Home extends React.Component{
                 <NavBar/>
                 <div className="landing-box">
                     <img
-                        data-aos="fade-right"
                     src={HomePage}
                     className='landing-image'
                     alt=''
                 />
-                <div className="landing-header" data-aos="fade-left">
+                <div className="landing-header">
                        Find the right doctor.<br/>For the care you deserve.
                 </div>
                     
-                <div className="landing-para" data-aos="zoom-out">
+                <div className="landing-para">
                 <p> Choose doctors based on patient ratings. Ratings that you can trust. Search by what matters most to you. </p>
                 </div>
             </div>
