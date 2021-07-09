@@ -31,7 +31,7 @@ const Doctors = () => {
                 </Button>
                 </div>
         </div>
-        <div className="first-container">
+        <div className="first-container-doc">
                 <div className="left-container">
                     <img
                         src={doc}

@@ -3,7 +3,7 @@
   flex-direction: column;
   margin: 30px 20px;
 }
-.first-container {
+.first-container-doc {
   display: flex;
   flex-direction: row;
   place-content: space-between;

@@ -3,7 +3,7 @@ import React from 'react';
 import './NavBar.css';
 import { Navbar,Nav, InputGroup, FormControl, Button, Form} from 'react-bootstrap';
 import {Link} from "react-scroll";
-import { AiOutlineSearch } from 'react-icons/ai';
+//import { AiOutlineSearch } from 'react-icons/ai';
 class NavBar extends React.Component{
 
     render() {

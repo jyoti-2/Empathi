@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   font-family: "Noto Sans", sans-serif;
-  margin: 10px 20px 30px 30px;
+  margin: 10px 20px 10px 10px;
   padding: 0;
   flex-wrap: wrap;
 }
@@ -15,7 +15,7 @@
 .landing-image {
   display: flex;
   flex-direction: row;
-  margin: 60px 20px 10px 10px;
+  margin: 60px 20px 5px 5px;
   align-items: flex-end;
   justify-content: flex-end;
   width: 100%;
@@ -29,8 +29,8 @@
   flex-direction: row;
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
-  font-size: 45px;
-  font-weight: 800;
+  font-size: 44px;
+  font-weight: 750;
   letter-spacing: 1px;
   margin: 110px 10px 10px 60px;
   color: #212529;

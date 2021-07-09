@@ -6,7 +6,7 @@ import NavBar from '../NavBar/NavBar';
 import About from '../About/About';
 //import Services from '../Services/Services';
 //import Doctors from '../Doctors/Doctors';
-import { AiOutlineSearch } from 'react-icons/ai';
+//import { AiOutlineSearch } from 'react-icons/ai';
 
 class Home extends React.Component{
 
@@ -73,7 +73,7 @@ class Home extends React.Component{
                     Get Started
                     </div>  
                 </Button>
-                <About />
+                <About/>
                 {/* <Doctors /> */}
                 {/* <Services/> */}
             </div>      
