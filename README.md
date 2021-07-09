@@ -1,33 +1,17 @@
-# Libraries used
+# Empathi
 
-### React Router Dom
+Choosing a doctor is one of the most important decisions you will make for a loved one. Empathi is building India’s 1st collection of detailed profiles of doctors based on their qualifications, expertise & patient ratings so that you can discover the RIGHT doctor for your loved ones.
 
-`npm install react-router-dom`
+## ⚙️ Tech Stack
 
-### Typewriter effect
+- [Javascript](https://www.javascript.com/)
+- [Reactjs](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
 
-[https://www.npmjs.com/package/typewriter-effect]
-`npm i typewriter-effect`
+## License
 
-### Animate on Scroll Library
+:link: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[https://michalsnik.github.io/aos/]
-`npm install aos --save`
+### Check it Live here :link: [link](https://jyoti-2.github.io/Empathi/#/home)
 
-### Nav top
-
-`npm i top-bar-nav`
-
-### React scroll
-
-[https://www.npmjs.com/package/react-scroll]
-`npm i react-scroll`
-
-### React Bootstrap
-
-[https://react-bootstrap.github.io/getting-started/introduction]
-`npm install react-bootstrap bootstrap@4.6.0`
-
-### react-dropdown-input
-
-npm i react-dropdown-input
+**[⬆ back to top](#table-of-contents)**
