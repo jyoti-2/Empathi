@@ -1,12 +1,13 @@
 {
-  "main.css": "static/css/main.f8b1e681.css",
-  "main.css.map": "static/css/main.f8b1e681.css.map",
-  "main.js": "static/js/main.267f07e2.js",
-  "main.js.map": "static/js/main.267f07e2.js.map",
+  "main.css": "static/css/main.4388eda8.css",
+  "main.css.map": "static/css/main.4388eda8.css.map",
+  "main.js": "static/js/main.37d868d4.js",
+  "main.js.map": "static/js/main.37d868d4.js.map",
   "static\\media\\HomePage.jpg": "static/media/HomePage.217d92e5.jpg",
   "static\\media\\about_1.jpg": "static/media/about_1.e8d99270.jpg",
   "static\\media\\about_2.png": "static/media/about_2.969c8c9c.png",
   "static\\media\\about_3.png": "static/media/about_3.8412f91d.png",
+  "static\\media\\doc.jpg": "static/media/doc.a8ff17d8.jpg",
   "static\\media\\login.png": "static/media/login.16931cea.png",
   "static\\media\\signup.png": "static/media/signup.c11f71a5.png"
 }
