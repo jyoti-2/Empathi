@@ -62,13 +62,13 @@ class NavBar extends React.Component{
                             {/* <a className='sectionLink'> About us </a> */}
                         </Link>
                    
-                        <Link activeClass="active"
+                        {/* <Link activeClass="active"
                             to="doctors"
                             spy={true}
                             smooth={true}
                             offset={-90}
                             duration={1000}>
-                        </Link>
+                        </Link> */}
 
                         {/* <Link activeClass="active"
                             to="services"
