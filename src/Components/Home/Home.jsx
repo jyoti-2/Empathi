@@ -6,6 +6,8 @@ import NavBar from '../NavBar/NavBar';
 import About from '../About/About';
 //import Services from '../Services/Services';
 import Doctors from '../Doctors/Doctors';
+import { AiOutlineSearch } from 'react-icons/ai';
+
 class Home extends React.Component{
 
    constructor(props) {
@@ -42,17 +44,21 @@ class Home extends React.Component{
                 <p> Choose doctors based on patient ratings. Ratings that you can trust. Search by what matters most to you. </p>
                 </div>
             </div>
-
+            
+            
                 <input
                     type='text'
                     placeholder='Search by doctor name'
                     className='search-box'
                     autoComplete='off'
+                    
                 />
 
                 <div className="city-search-box">
                 <form onSubmit={this.handleSubmit} >
-                <select onChange={this.handleChange} >
+                <select onChange={this.handleChange}>
+                
+                              
                     <option default>Search by city</option>
                     <option value="Mumbai">Mumbai</option>
                     <option value="Delhi">Delhi</option>

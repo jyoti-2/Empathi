@@ -3,6 +3,7 @@ import React from 'react';
 import './NavBar.css';
 import { Navbar,Nav, InputGroup, FormControl, Button, Form} from 'react-bootstrap';
 import {Link} from "react-scroll";
+import { AiOutlineSearch } from 'react-icons/ai';
 class NavBar extends React.Component{
 
     render() {
@@ -17,14 +18,16 @@ class NavBar extends React.Component{
 
                                                 
                     <InputGroup className="nav-center">
-                    <FormControl
+                        <FormControl
+                            
                             placeholder="Search by doctor name"
                             aria-label="Recipient's username"
                             aria-describedby="basic-addon2"
                             className= "text-container"
-                            />
-                            
-                    <Form.Control as="select" defaultValue="Search by city" className="text-container">
+                        />
+                                                              
+                        <Form.Control as="select" defaultValue="Search by city" className="text-container">
+                        
                                     <option>Search by city</option>
                                     <option>Mumbai</option>
                                     <option >Delhi</option>
