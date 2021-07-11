@@ -6,6 +6,8 @@ import Login from '../Login/Login';
 import Signup from '../Signup/Signup';
 import Profile from '../Profile/Profile';
 import Doctors from '../Doctors/Doctors';
+import Stories from '../Stories/Stories';
+import Ratings from '../Ratings/Ratings';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,7 +25,9 @@ class App extends React.Component {
                         <Route path ='/login' exact component={Login}/>
                         <Route path='/profile' exact component={Profile} />
                         <Route path='/doctors' exact component={Doctors} />
-                        <Route path='/signup' exact component={Signup}/>
+                        <Route path='/signup' exact component={Signup} />
+                        <Route path='/profile/stories' exact component={Stories} />
+                        <Route path ='/profile/ratings' exact component={Ratings}/>
                     </div>
                 </HashRouter>
             </div>

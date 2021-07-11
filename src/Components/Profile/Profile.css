@@ -1,6 +1,6 @@
 .profile-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0px;
   background-color: #eceff1;
 }
@@ -21,7 +21,8 @@
 .item:hover {
   background: #dc3545;
   color: white;
-  border-radius: 10px;
+  border-radius: 45px;
   width: auto;
-  height: 35px;
+  height: 45px;
+  width: max-content;
 }
