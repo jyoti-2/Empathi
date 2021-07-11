@@ -3,13 +3,13 @@
   flex-direction: column;
   background-color: #dc3545;
   height: 40vh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  bottom: 0;
   width: 100%;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+
   justify-content: space-evenly;
-  margin: 0px;
-  padding: 0px;
   align-items: center;
   color: white;
 }

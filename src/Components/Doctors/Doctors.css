@@ -1,17 +1,23 @@
 .doctor-container {
   display: flex;
   flex-direction: column;
-  margin: s0px 20px;
+  margin: 0px;
+  padding: 0px;
 }
 .first-container-doc {
   display: flex;
   flex-direction: row;
-  place-content: space-between;
-  height: 40vh;
+  height: 50vh;
   justify-content: space-evenly;
-  margin: 20px 20px 40px 30px;
-  padding-bottom: 0px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin: 20px 20px 20px 20px;
+  padding-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.doc-profile {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
 }
 .left-container {
   display: flex;
@@ -20,25 +26,31 @@
 .doc-img {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   overflow-x: hidden;
   width: 60%;
   max-height: 400px;
-  padding-bottom: 0px;
-  padding-right: 10px;
-  margin-top: 5px;
+  padding: 30px;
 }
 
 .right-container {
   display: flex;
   flex-direction: column;
+  padding: 15px;
 }
 
-.book-appointmen {
+.button-container {
   display: flex;
   flex-direction: row;
-  padding-left: 50px;
+  justify-content: center;
 }
+.submit-button-doc {
+  border-radius: 200px;
+  height: 60px;
+  padding: 10px;
+  margin: 120px 10px;
+  align-items: center;
+}
+
 .material-icons {
   font-family: "Material Icons";
   font-weight: normal;

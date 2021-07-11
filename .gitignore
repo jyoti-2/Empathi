@@ -3,6 +3,7 @@
 /.pnp
 .txt
 .pnp.js
+/sample.css
 
 # testing
 /coverage
