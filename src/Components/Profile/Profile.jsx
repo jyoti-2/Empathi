@@ -4,7 +4,14 @@ import './Profile.css';
 const Profile = () => {
     return (
         <div id = "profile" className ="profile-container">
-            <h1> Services that we provide:</h1>
+            <div className="top-bar">
+                <h3 className= 'item'>Profile</h3>
+                <h3 className= 'item'> User ratings</h3>
+                <h3 className= 'item'> Patient stories</h3>
+                <h3 className= 'item'> Consulted for symptoms</h3>
+            </div>
+
+            
         </div>
         
     );
