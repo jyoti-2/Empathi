@@ -1,0 +1,10 @@
+.profilecard-container{
+    margin: 40px;
+    background-color: white;
+}
+
+.info{
+    margin: 30px;
+    padding-bottom: 30px;
+    width: 60%;
+}

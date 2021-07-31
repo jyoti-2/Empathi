@@ -4,9 +4,6 @@ import { Button } from 'react-bootstrap';
 import './Home.css';
 import NavBar from '../NavBar/NavBar';
 import About from '../About/About';
-//import Services from '../Services/Services';
-//import Doctors from '../Doctors/Doctors';
-//import { AiOutlineSearch } from 'react-icons/ai';
 
 class Home extends React.Component{
 
@@ -57,8 +54,6 @@ class Home extends React.Component{
                 <div className="city-search-box">
                 <form onSubmit={this.handleSubmit} >
                 <select onChange={this.handleChange}>
-                
-                              
                     <option default>Search by city</option>
                     <option value="Mumbai">Mumbai</option>
                     <option value="Delhi">Delhi</option>
@@ -74,9 +69,6 @@ class Home extends React.Component{
                     </div>  
                 </Button>
                 <About />
-                
-                {/* <Doctors /> */}
-                {/* <Services/> */}
             </div>      
         );
     }

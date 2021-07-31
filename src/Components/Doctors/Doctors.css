@@ -1,61 +1,83 @@
+.cont{
+  background-color: #ffe1e5;
+}
 .doctor-container {
   display: flex;
   flex-direction: column;
-  margin: 25px 20px;
+  background-color: #ffe1e5;
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  border-radius: 20px;
   padding: 0px;
-}
-.first-container-doc {
-  display: flex;
-  flex-direction: row;
-  height: 50vh;
-  justify-content: space-around;
-  margin: 20px 20px 20px 20px;
-  padding-bottom: 20px;
+
 }
 
 .doc-profile {
   display: flex;
   flex-direction: row;
-  margin: 20px;
+  height: 35vh;
+  margin: 40px;
+  margin-bottom: -18px;
+  padding: 20px;
+  background-color: white; 
+  border-radius: 20px;
 }
-
+.top-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
 .doc-profile:focus,
 .doc-profile:hover {
   border: 2px solid #dc3545;
   cursor: pointer;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
-.doc-profile .left-container {
+.left-container {
   display: flex;
   flex-direction: column;
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: 40px;
 }
 .doc-img {
   display: flex;
   flex-direction: row;
-  overflow-x: hidden;
-  width: 60%;
-  max-height: 400px;
-  padding: 30px;
+  width: 50%;
+  max-height: 300px;
+  vertical-align: middle;
 }
 
 .right-container {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 60px;
 }
 
-.button-container {
+.icon{
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
-.submit-button-doc {
-  border-radius: 200px;
-  height: 60px;
-  padding: 10px;
-  margin: 120px 10px;
-  align-items: center;
+.head{
+  line-height: 1;
+}
+.clickable{
+  position: relative;
+  text-decoration: none;
+  color: black !important;
+  top:0;
+  left: 0; 
 }
 
 .material-icons {
@@ -70,7 +92,7 @@
   letter-spacing: normal;
   word-wrap: normal;
   white-space: nowrap;
-  direction: ltr;
+  direction: auto;
 
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;

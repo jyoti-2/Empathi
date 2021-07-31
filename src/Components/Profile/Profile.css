@@ -1,18 +1,130 @@
 .profile-container {
   display: flex;
   flex-direction: column;
-  margin: 55px 0px 20px 0px;
-  background-color: #eceff1;
+  margin-top: 65px;
+  background-color: #ffe1e5;
+}
+.top-profile{
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  margin: 15px 60px 20px 60px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+.top-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-top: 80px;
+  margin-right: 70px;
+  padding: 5px;
+  top: 0;
+  right: 0;
+  position: absolute;
 }
 
-.top-bar {
-  display: block;
+.img-container{
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.img-cont{
+  display: flex;
   flex-direction: row;
-  background-color: #dc3545;
-  color: white;
   width: 100%;
-  height: 10vh;
-  justify-content: space-around;
+  max-height: 300px;
+  vertical-align: middle;
+}
+.center-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+.desc-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-left: 40px;
+  width: 50%;
+}
+.desc{
+ 
+  letter-spacing: 0.5;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.col-one{
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  float: left;
+  width: 16%;
+  
+  
+}
+
+.col-two{
+ 
+  flex-direction: column;
+  height: 70px;
+  display: inline-block;
+
+width: 16%;
+ 
+}
+
+.col-three{
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  float: right;
+}
+
+.txt{
+  line-height: 0.5;
+}
+
+.btns{
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  margin-top: -20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 0px;
+  background-color: ffe1e5;
+  height: 13vh;
+  justify-content: space-evenly;
   cursor: pointer;
-  margin-top: 10px;
+}
+.item-prof{
+  width: 100%;
+  padding: 0px;
+  margin: 1px;
+  margin-top: 20px;
+  border-radius: 20%;
+}
+
+.item:hover{
+  background-color: white;
+  color: black;
 }

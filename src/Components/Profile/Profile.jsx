@@ -1,99 +1,130 @@
 import React from 'react';
 import './Profile.css';
-//import { Link } from "react-scroll";
 import doc from "./../../assets/doc.jpg";
 import { Button } from 'react-bootstrap';
 import NavBar from '../NavBar/NavBar';
-import ProfileCard from '../ProfileCard/ProfileCard';
+import GiveRating from '../GiveRating/GiveRating';
 import RatingsCard from '../RatingsCard/RatingsCard';
 import StoriesCard from '../StoriesCard/StoriesCard';
 import AppointmentCard from '../AppointmentCard/AppointmentCard';
 
+class Profile extends React.Component{
+    
+    constructor(){
+        super();
+        this.state={
+                    showRatings:false,
+                    showStories:false,
+                    showAppointment:false,
+                    showPopup:false
+                };
 
-const Profile = () => {
-    return (
+       
+        this.hideComponent = this.hideComponent.bind(this);
+        this.togglePopup = this.togglePopup.bind(this);
+    }
+    hideComponent(name) {
+        switch (name) {
+         
+          case "showRatings":
+            this.setState({ showRatings: !this.state.showRatings });
+            break;
+          case "showStories":
+            this.setState({ showStories: !this.state.showStories });
+            break;
+          case "showAppointment":
+                this.setState({ showAppointment: !this.state.showAppointment });
+                break;
+          default:
+            <RatingsCard/>
+        }
+      } 
+      togglePopup()
+      {
+          this.setState({ showPopup: !this.state.showPopup }); 
+      }
+    render() {
+        const {  showRatings, showStories, showAppointment, showPopup } = this.state;
+        
+        return(
         <div id="profile" className="profile-container">
-            <NavBar />
-            <div className="first-container-doc">
-                <div className="doc-profile">
-                    <div className="left-container">
+           <NavBar />
+            <div className="top-profile">
+                    <div className="top-icons">
+                    <span class="material-icons">ios_share</span>
+                    <span class="material-icons">favorite_border</span>
+                    </div>
+
+                    <div className="img-container">
                         <img
                             src={doc}
                             alt=''
-                            className='doc-img'
-                            href='./#/profile'
+                            className='img-cont'
                         />
-                        {/* <span class="material-icons"> thumb_up_off_alt thumb_down_off_alt </span> */}
-                    </div>
-                    
-                    <div className="right-container">
-                        <h3> Dr Amola Kumari, M.D</h3><br/>
-                        <h5>Orthopaedic surgeon | 12 Yrs Exp.</h5>
-                        <h5> <b>Practice Area:</b>Ankle sprain, Foot pain</h5>
-                        <h5> <span class="material-icons"> location_on </span> Old Palasia, Indore | Paras Hospital</h5>
-                        <h5> <span class="material-icons">phone </span> +91 9234123457</h5>
-                        </div>
-                    </div>
-                
-
-                    <div className="button-container">
-                    <Button href= './#/profile/Appointmentcard'  variant="danger" size="sm" className="submit-button-doc">
-                        <div className="submit-text">
-                        In-person appointment
-                        </div>  
-                    </Button>
-
-                    <Button href= './#/profile/Appointmentcard' variant="danger" size="sm" className="submit-button-doc">
-                        <div className="submit-text">
-                        Online consultation
-                        </div>  
-                    </Button>
-            </div>
-            </div>
-
-
-            <div className="top-bar">
-                <h4 className= 'item' href = "./#/Profile/ProfileCard"> Profile</h4>
-                <h4 className= 'item' href = "./#/Profile/RatingsCard"> User Card</h4>
-                <h4 className= 'item' href = "./#/Profile/StoriesCard"> Patient Card</h4>
-                <h4 className= 'item' href ="./#/Profile/Appointmentcard"> Consulted for symptoms</h4>
-            </div>
-
-            <ProfileCard/>
-
-            {/* <Link activeClass="active"
-                            to="profile"
-                            spy={true}
-                            smooth={true}
-                            offset={-90}
-                            duration={1000}>
-            </Link>
-            <Link activeClass="active"
-                            to="Card"
-                            spy={true}
-                            smooth={true}
-                            offset={-90}
-                            duration={1000}>
-            </Link>
-            <Link activeClass="active"
-                            to="Card"
-                            spy={true}
-                            smooth={true}
-                            offset={-90}
-                            duration={1000}>
-            </Link>
-            <Link activeClass="active"
-                            to="symptoms"
-                            spy={true}
-                            smooth={true}
-                            offset={-90}
-                            duration={1000}>
-            </Link> */}      
-           
             
-        </div>
+                        <Button onClick={() => this.togglePopup("showPopup")} variant="danger" size="sm" className="btns">
+                        <div className="submit-text">Rate this doctor</div>  
+                        </Button>
+
+                        {/* {showPopup && <GiveRating/>} */}
+
+                        {
+                            this.state.showPopup? 
+                            <GiveRating
+                            showPopup={this.togglePopup.bind(this)}
+                            />
+                            : null
+                        } 
+                    </div>
+
+                    <div className="center-container">
+                        <h4> Dr Amola Kumari, M.D</h4>
+                        <p>Orthopaedic surgeon | 12 Yrs Exp.</p>
+                        <p> <b>Practice Area:</b> Ankle sprain, Foot pain</p>
+                        <div className="icon"><span class="material-icons"> location_on </span> <p> Old Palasia, Indore | Paras Hospital</p></div>
+                        <div className="icon"><span class="material-icons">phone </span><p> +91 9234123457</p></div>
+                    </div>
+
+                    <div className="desc-container">
+                    <p className="desc">Dr. Amola Kumar is an Orthopedics and Joint replacement Surgeon in Indore having more than 10 years of experience in the field of Orthopaedic surgery. She completed his Six years of Orthopaedic training from prestigious All India Institute of Medical Sciences (AIIMS), New Delhi . Dr. Kumar specializes in Knee & Hip Replacement, Computer navigated TKR, Arthroscopic Knee surgery & Complex Fractures. He has experience of performing more than 2000 knee replacement till date</p>
+                    
+                    <div className="row">
+                        <div className="col-one">
+                            <h6>Hospital</h6>
+                            <p> XYZ Hospital, HP Avenue Old palasia Indore
+                            (9:00 AM - 5:00 PM)</p>
+                        </div>
+
+
+                        <div className="col-two">
+                        <h6> Education </h6>
+                            <p>AIMS Delhi | AIMS Patna</p>
+                        </div>
+
+                        <div className="col-three">
+                            <h6> Pricing </h6>
+                            <p> ₹500 per session</p>
+                       </div>
+                   </div>
+                </div>
+            </div>
+
+                <div className="top-bar">
+               
+                <Button onClick={() => this.hideComponent("showRatings")} variant="danger" className="item-prof"><div className="submit-text">Patient Ratings</div></Button>
+                <Button onClick={() => this.hideComponent("showStories")} variant="danger" className="item-prof"><div className="submit-text">Patient Reviews</div></Button>
+                <Button onClick={() => this.hideComponent("showAppointment")} variant="danger" className="item-prof"><div className="submit-text">Book an appointment</div></Button>
+            </div> 
+            <div>
         
-    );
+       
+        {showRatings && <RatingsCard />}
+        {showStories && <StoriesCard />}
+        {showAppointment && <AppointmentCard />}      
+      </div>
+        </div>
+       );
+    };
 };
 
 export default Profile;

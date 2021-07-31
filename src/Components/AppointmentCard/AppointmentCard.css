@@ -1,0 +1,14 @@
+.appointment-container{
+    display: inline-block;
+    margin: 40px;
+    background-color: white;
+    width: 95%;
+    overflow-x: hidden;
+}
+
+.appoint-img{
+    max-width: 80%;
+    max-height: 400px;
+    float: right;
+    
+}
