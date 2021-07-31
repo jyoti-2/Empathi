@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Empathi/static/css/main.98e39266.chunk.css",
+    "main.css": "/Empathi/static/css/main.971caa30.chunk.css",
     "main.js": "/Empathi/static/js/main.d624ab24.chunk.js",
     "main.js.map": "/Empathi/static/js/main.d624ab24.chunk.js.map",
     "runtime-main.js": "/Empathi/static/js/runtime-main.21e6037a.js",
@@ -10,7 +10,7 @@
     "static/js/2.45f31f05.chunk.js.map": "/Empathi/static/js/2.45f31f05.chunk.js.map",
     "index.html": "/Empathi/index.html",
     "static/css/2.4be38407.chunk.css.map": "/Empathi/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.98e39266.chunk.css.map": "/Empathi/static/css/main.98e39266.chunk.css.map",
+    "static/css/main.971caa30.chunk.css.map": "/Empathi/static/css/main.971caa30.chunk.css.map",
     "static/js/2.45f31f05.chunk.js.LICENSE.txt": "/Empathi/static/js/2.45f31f05.chunk.js.LICENSE.txt",
     "static/media/HomePage.60ab6844.jpg": "/Empathi/static/media/HomePage.60ab6844.jpg",
     "static/media/In_person.bd1a1ab0.jpg": "/Empathi/static/media/In_person.bd1a1ab0.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.21e6037a.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.45f31f05.chunk.js",
-    "static/css/main.98e39266.chunk.css",
+    "static/css/main.971caa30.chunk.css",
     "static/js/main.d624ab24.chunk.js"
   ]
 }
