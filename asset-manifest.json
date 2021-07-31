@@ -1,13 +1,32 @@
 {
-  "main.css": "static/css/main.501f619d.css",
-  "main.css.map": "static/css/main.501f619d.css.map",
-  "main.js": "static/js/main.b32dbeca.js",
-  "main.js.map": "static/js/main.b32dbeca.js.map",
-  "static\\media\\HomePage.jpg": "static/media/HomePage.217d92e5.jpg",
-  "static\\media\\about_1.jpg": "static/media/about_1.e8d99270.jpg",
-  "static\\media\\about_2.png": "static/media/about_2.969c8c9c.png",
-  "static\\media\\about_3.png": "static/media/about_3.8412f91d.png",
-  "static\\media\\doc.jpg": "static/media/doc.a8ff17d8.jpg",
-  "static\\media\\login.png": "static/media/login.16931cea.png",
-  "static\\media\\signup.png": "static/media/signup.c11f71a5.png"
+  "files": {
+    "main.css": "/Empathi/static/css/main.98e39266.chunk.css",
+    "main.js": "/Empathi/static/js/main.d624ab24.chunk.js",
+    "main.js.map": "/Empathi/static/js/main.d624ab24.chunk.js.map",
+    "runtime-main.js": "/Empathi/static/js/runtime-main.21e6037a.js",
+    "runtime-main.js.map": "/Empathi/static/js/runtime-main.21e6037a.js.map",
+    "static/css/2.4be38407.chunk.css": "/Empathi/static/css/2.4be38407.chunk.css",
+    "static/js/2.45f31f05.chunk.js": "/Empathi/static/js/2.45f31f05.chunk.js",
+    "static/js/2.45f31f05.chunk.js.map": "/Empathi/static/js/2.45f31f05.chunk.js.map",
+    "index.html": "/Empathi/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/Empathi/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.98e39266.chunk.css.map": "/Empathi/static/css/main.98e39266.chunk.css.map",
+    "static/js/2.45f31f05.chunk.js.LICENSE.txt": "/Empathi/static/js/2.45f31f05.chunk.js.LICENSE.txt",
+    "static/media/HomePage.60ab6844.jpg": "/Empathi/static/media/HomePage.60ab6844.jpg",
+    "static/media/In_person.bd1a1ab0.jpg": "/Empathi/static/media/In_person.bd1a1ab0.jpg",
+    "static/media/about_1.4eae0fa3.jpg": "/Empathi/static/media/about_1.4eae0fa3.jpg",
+    "static/media/about_2.498f890b.png": "/Empathi/static/media/about_2.498f890b.png",
+    "static/media/about_3.d1598f46.png": "/Empathi/static/media/about_3.d1598f46.png",
+    "static/media/login.7de4c841.png": "/Empathi/static/media/login.7de4c841.png",
+    "static/media/online_cons.42a8d440.jpg": "/Empathi/static/media/online_cons.42a8d440.jpg",
+    "static/media/pat_story.66be7dfa.jpg": "/Empathi/static/media/pat_story.66be7dfa.jpg",
+    "static/media/signup.eef97263.png": "/Empathi/static/media/signup.eef97263.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21e6037a.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.45f31f05.chunk.js",
+    "static/css/main.98e39266.chunk.css",
+    "static/js/main.d624ab24.chunk.js"
+  ]
 }
