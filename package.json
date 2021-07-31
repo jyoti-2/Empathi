@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage" : "https://jyoti-2.github.io/Empathi/#/home",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "aos": "^2.3.4",
     "bootstrap": "^5.0.2",
+    "homepage": "https://jyoti-2.github.io/Empathi/#/home",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.2",
     "react-dropdown-input": "^0.1.11",
@@ -25,8 +26,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
