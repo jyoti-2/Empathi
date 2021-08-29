@@ -3,7 +3,7 @@ import './Profile.css';
 import doc from "./../../assets/doc.jpg";
 import { Button } from 'react-bootstrap';
 import NavBar from '../NavBar/NavBar';
-import GiveRating from '../GiveRating/GiveRating';
+//import GiveRating from '../GiveRating/GiveRating';
 import RatingsCard from '../RatingsCard/RatingsCard';
 import StoriesCard from '../StoriesCard/StoriesCard';
 import AppointmentCard from '../AppointmentCard/AppointmentCard';
@@ -66,7 +66,7 @@ class Profile extends React.Component{
                         <div className="submit-text">Rate this doctor</div>  
                         </Button>
 
-                        {/* {showPopup && <GiveRating/>} */}
+                        {/* {showPopup && <GiveRating/>}
 
                         {
                             this.state.showPopup? 
@@ -74,7 +74,7 @@ class Profile extends React.Component{
                             showPopup={this.togglePopup.bind(this)}
                             />
                             : null
-                        } 
+                        }  */}
                     </div>
 
                     <div className="center-container">
@@ -88,13 +88,13 @@ class Profile extends React.Component{
                     <div className="desc-container">
                     <p className="desc">Dr. Amola Kumar is an Orthopedics and Joint replacement Surgeon in Indore having more than 10 years of experience in the field of Orthopaedic surgery. She completed his Six years of Orthopaedic training from prestigious All India Institute of Medical Sciences (AIIMS), New Delhi . Dr. Kumar specializes in Knee & Hip Replacement, Computer navigated TKR, Arthroscopic Knee surgery & Complex Fractures. He has experience of performing more than 2000 knee replacement till date</p>
                     
+                    
                     <div className="row">
                         <div className="col-one">
                             <h6>Hospital</h6>
                             <p> XYZ Hospital, HP Avenue Old palasia Indore
                             (9:00 AM - 5:00 PM)</p>
                         </div>
-
 
                         <div className="col-two">
                         <h6> Education </h6>
@@ -106,6 +106,7 @@ class Profile extends React.Component{
                             <p> ₹500 per session</p>
                        </div>
                    </div>
+
                 </div>
             </div>
 
