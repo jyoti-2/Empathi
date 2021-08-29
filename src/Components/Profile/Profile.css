@@ -60,26 +60,25 @@
   line-height: 1.2;
 }
 
-.row{
-  display: flex;
-  flex-direction: column;
-}
-
 .col-one{
-  
+  display: flex;
+  flex-direction: row;
   height: 60px;
   width: 16%;
    
 }
 
 .col-two{
-  
+  display: flex;
+  flex-direction: row;
   height: 60px;
   width: 16%;
  
 }
 
 .col-three{
+  display: flex;
+  flex-direction: row;
   width: 16%;
   height: 60px;
 }

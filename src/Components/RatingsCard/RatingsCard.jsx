@@ -1,18 +1,19 @@
 import React from 'react'
 import './RatingsCard.css';
 import { ProgressBar } from 'react-bootstrap';
-//import Review from "./../../assets/reviews.png";
+import Review from "./../../assets/reviews.png";
 
 
 const Ratings = () => {
     return (
         <div className="rating-container" id = "ratings">
-            {/* <div className="right-container">
+            <div className="right-container">
             <img
             src={Review}
             alt=''
             className='rating-img'/>
-            </div> */}
+            </div> 
+            
             <div className="left-container">
                 <h5><b>1. Overall ranking  4.5/5 (100 ratings)</b></h5>
                 <p>Overall ranking seem to be good. He has been consistently rated/ranked higher on factors like friendliness etc</p>

@@ -47,6 +47,7 @@ class Profile extends React.Component{
         const {  showRatings, showStories, showAppointment, showPopup } = this.state;
         
         return(
+
         <div id="profile" className="profile-container">
            <NavBar />
             <div className="top-profile">
@@ -91,18 +92,18 @@ class Profile extends React.Component{
                     
                     <div className="row">
                         <div className="col-one">
-                            <h6>Hospital</h6>
+                            <h6><b>Hospital -  </b></h6>
                             <p> XYZ Hospital, HP Avenue Old palasia Indore
                             (9:00 AM - 5:00 PM)</p>
                         </div>
 
                         <div className="col-two">
-                        <h6> Education </h6>
+                        <h6><b>Education - </b>   </h6>
                             <p>AIMS Delhi | AIMS Patna</p>
                         </div>
 
                         <div className="col-three">
-                            <h6> Pricing </h6>
+                            <h6> <b>Pricing -  </b> </h6>
                             <p> ₹500 per session</p>
                        </div>
                    </div>
