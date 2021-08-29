@@ -68,6 +68,7 @@ class Home extends React.Component{
                     Get Started
                     </div>  
                 </Button>
+                
                 <About />
             </div>      
         );

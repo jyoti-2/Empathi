@@ -62,21 +62,21 @@
 
 .row{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .col-one{
   display: flex;
   flex-direction: column;
-  height: 70px;
+  height: 60px;
   width: 16%;
    
 }
 
 .col-two{
- 
+  display: flex;
   flex-direction: column;
-  height: 70px;
+  height: 60px;
   width: 16%;
  
 }
@@ -84,7 +84,7 @@
 .col-three{
   display: flex;
   flex-direction: column;
-  height: 70px;
+  height: 60px;
 }
 
 .txt{
