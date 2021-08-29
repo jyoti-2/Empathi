@@ -59,6 +59,7 @@
   outline: none;
   border: 2px solid #dc3545;
   margin-left: 10px;
+  margin-right: 0px;
 }
 
 .search-box:hover {
@@ -67,7 +68,7 @@
 select {
   width: 100%;
   padding: 5px;
-  margin-left: 50px;
+  margin-left: 0px;
   border-radius: 25px;
   height: 60px;
   outline: none;
@@ -86,9 +87,9 @@ select:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.submit-button {
+.submit-buttons {
   height: 60px;
-  padding-left: 5px;
+  padding: 5px;
   margin-left: 5px;
 }
 
