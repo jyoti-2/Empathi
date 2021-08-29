@@ -59,13 +59,15 @@
   font-size: 16px;
   line-height: 1.2;
 }
-
+.row{
+  display: flex;
+  flex-direction: column;
+}
 .col-one{
   display: flex;
   flex-direction: row;
   height: 60px;
   width: 16%;
-   
 }
 
 .col-two{

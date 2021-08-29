@@ -93,8 +93,7 @@ class Profile extends React.Component{
                     <div className="row">
                         <div className="col-one">
                             <h6><b>Hospital -  </b></h6>
-                            <p> XYZ Hospital, HP Avenue Old palasia Indore
-                            (9:00 AM - 5:00 PM)</p>
+                            <p> XYZ Hospital, HP Avenue(9:00 AM - 5:00 PM)</p>
                         </div>
 
                         <div className="col-two">
@@ -103,7 +102,7 @@ class Profile extends React.Component{
                         </div>
 
                         <div className="col-three">
-                            <h6> <b>Pricing -  </b> </h6>
+                            <h6> <b>Pricing - </b> </h6>
                             <p> ₹500 per session</p>
                        </div>
                    </div>
