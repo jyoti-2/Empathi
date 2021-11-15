@@ -1,9 +1,5 @@
-.giverating-container{
- display: flex;
-  justify-content: center;
-  align-items: center;
+.Giverating-container{
   position: fixed;
-  background: #00000050;
   width: 100%;
   height: 100vh;
   top: 0;
@@ -12,18 +8,28 @@
 
 .box{
     position: relative;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     height: auto;
     max-height: 70vh;
     margin-top: calc(100vh - 85vh - 20px);
-    background: #fff;
-    border-radius: 4px;
+    background: #ffe1e5;
+    color: black;
+    border-radius: 10px;
     padding: 20px;
     border: 1px solid #999;
     overflow: auto;
 }
+.heading-rating{
+  padding-bottom: 20px;
+}
 
+.mb-3{
+  text-align: left;
+  font-size: 15px;
+  font-family: "Noto Sans", sans-serif;
+
+}
 .close-icon {
     content: 'x';
     cursor: pointer;

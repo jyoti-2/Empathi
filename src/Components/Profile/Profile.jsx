@@ -3,7 +3,7 @@ import './Profile.css';
 import doc from "./../../assets/doc.jpg";
 import { Button } from 'react-bootstrap';
 import NavBar from '../NavBar/NavBar';
-//import GiveRating from '../GiveRating/GiveRating';
+import GiveRating from '../GiveRating/GiveRating';
 import RatingsCard from '../RatingsCard/RatingsCard';
 import StoriesCard from '../StoriesCard/StoriesCard';
 import AppointmentCard from '../AppointmentCard/AppointmentCard';
@@ -63,9 +63,10 @@ class Profile extends React.Component{
                             className='img-cont'
                         />
             
-            {/* onClick={() => this.togglePopup("showPopup")} */}
-                        <Button href="./#/GiveRating" variant="danger" size="sm" className="btns-profile">
-                        <div className="submit-text">Rate this doctor</div>  
+            
+                        <Button onClick={this.togglePopup}  variant="danger" size="sm" className="btns-profile">
+                        <div className="submit-text">Rate this doctor</div>
+                        {this.state.showPopup ? <GiveRating toggle={this.togglePop} /> : null}  
                         </Button>
                     </div>
 
