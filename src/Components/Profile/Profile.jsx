@@ -63,19 +63,10 @@ class Profile extends React.Component{
                             className='img-cont'
                         />
             
-                        <Button onClick={() => this.togglePopup("showPopup")} variant="danger" size="sm" className="btns">
+            {/* onClick={() => this.togglePopup("showPopup")} */}
+                        <Button href="./#/GiveRating" variant="danger" size="sm" className="btns-profile">
                         <div className="submit-text">Rate this doctor</div>  
                         </Button>
-
-                        {/* {showPopup && <GiveRating/>}
-
-                        {
-                            this.state.showPopup? 
-                            <GiveRating
-                            showPopup={this.togglePopup.bind(this)}
-                            />
-                            : null
-                        }  */}
                     </div>
 
                     <div className="center-container">
@@ -90,7 +81,7 @@ class Profile extends React.Component{
                     <p className="desc">Dr. Amola Kumar is an Orthopedics and Joint replacement Surgeon in Indore having more than 10 years of experience in the field of Orthopaedic surgery. She completed his Six years of Orthopaedic training from prestigious All India Institute of Medical Sciences (AIIMS), New Delhi . Dr. Kumar specializes in Knee & Hip Replacement, Computer navigated TKR, Arthroscopic Knee surgery & Complex Fractures. He has experience of performing more than 2000 knee replacement till date</p>
                     
                     
-                    {/* <div className="row">
+                   <div className="row">
                         <div className="col-one">
                             <h6><b>Hospital -  </b></h6>
                             <p> XYZ Hospital, HP Avenue(9:00 AM - 5:00 PM)</p>
@@ -105,16 +96,16 @@ class Profile extends React.Component{
                             <h6> <b>Pricing - </b> </h6>
                             <p> ₹500 per session</p>
                        </div>
-                   </div> */}
+                   </div>
 
                 </div>
             </div>
 
                 <div className="top-bar">
                
-                <Button onClick={() => this.hideComponent("showRatings")} variant="danger" className="item-prof"><div className="submit-text">Patient Ratings</div></Button>
-                <Button onClick={() => this.hideComponent("showStories")} variant="danger" className="item-prof"><div className="submit-text">Patient Reviews</div></Button>
-                <Button onClick={() => this.hideComponent("showAppointment")} variant="danger" className="item-prof"><div className="submit-text">Book an appointment</div></Button>
+                <Button onClick={() => this.hideComponent("showRatings")} variant="danger" className="item-profile"><div className="submit-text">Patient Ratings</div></Button>
+                <Button onClick={() => this.hideComponent("showStories")} variant="danger" className="item-profile"><div className="submit-text">Patient Reviews</div></Button>
+                <Button onClick={() => this.hideComponent("showAppointment")} variant="danger" className="item-profile"><div className="submit-text">Book an appointment</div></Button>
             </div> 
             <div>
         

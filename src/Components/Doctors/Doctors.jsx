@@ -17,7 +17,7 @@ const Doctors = () => {
                     <span class="material-icons">favorite_border</span>
                     </div>
 
-                    <div className="left-container">
+                    <div className="left-container-doc">
                         <img
                             src={doc}
                             alt=''
@@ -26,7 +26,7 @@ const Doctors = () => {
                         <p> 40 ratings <b> 4/5 </b> </p>
                     </div>
 
-                    <div className="right-container">
+                    <div className="right-container-doc">
                         <h4 className='head'> Dr Amola Kumari, M.D</h4>
                         <p  className='head'>Orthopaedic surgeon | 12 Yrs Exp.</p>
                         <p  className='head'> <b>Practice Area:</b> Ankle sprain, Foot pain</p>
@@ -44,7 +44,7 @@ const Doctors = () => {
                     <span class="material-icons">favorite_border</span>
                     </div>
 
-                    <div className="left-container">
+                    <div className="left-container-doc">
                         <img
                             src={doc}
                             alt=''
@@ -53,7 +53,7 @@ const Doctors = () => {
                         <p> 60 ratings <b> 4.2/5 </b></p>
                     </div>
 
-                    <div className="right-container">
+                    <div className="right-container-doc">
                         <h4 className='head'> Dr Amola Kumari, M.D</h4>
                         <p  className='head'>Orthopaedic surgeon | 12 Yrs Exp.</p>
                         <p  className='head'> <b>Practice Area:</b> Ankle sprain, Foot pain</p>
@@ -71,7 +71,7 @@ const Doctors = () => {
                     <span class="material-icons">favorite_border</span>
                     </div>
 
-                    <div className="left-container">
+                    <div className="left-container-doc">
                         <img
                             src={doc}
                             alt=''
@@ -80,7 +80,7 @@ const Doctors = () => {
                         <p> 120 ratings <b> 3/5 </b></p>
                     </div>
 
-                    <div className="right-container">
+                    <div className="right-container-doc">
                         <h4 className='head'> Dr Amola Kumari, M.D</h4>
                         <p  className='head'>Orthopaedic surgeon | 12 Yrs Exp.</p>
                         <p  className='head'> <b>Practice Area:</b> Ankle sprain, Foot pain</p>
@@ -98,7 +98,7 @@ const Doctors = () => {
                     <span class="material-icons">favorite_border</span>
                     </div>
 
-                    <div className="left-container">
+                    <div className="left-container-doc">
                         <img
                             src={doc}
                             alt=''
@@ -107,7 +107,7 @@ const Doctors = () => {
                         <p> 50 ratings <b> 4.7/5 </b></p>
                     </div>
 
-                    <div className="right-container">
+                    <div className="right-container-doc">
                         <h4 className='head'> Dr Amola Kumari, M.D</h4>
                         <p  className='head'>Orthopaedic surgeon | 12 Yrs Exp.</p>
                         <p  className='head'> <b>Practice Area:</b> Ankle sprain, Foot pain</p>
@@ -125,7 +125,7 @@ const Doctors = () => {
                     <span class="material-icons">favorite_border</span>
                     </div>
 
-                    <div className="left-container">
+                    <div className="left-container-doc">
                         <img
                             src={doc}
                             alt=''
@@ -135,7 +135,7 @@ const Doctors = () => {
 
                     </div>
 
-                    <div className="right-container">
+                    <div className="right-container-doc">
                         <h4 className='head'> Dr Amola Kumari, M.D</h4>
                         <p  className='head'>Orthopaedic surgeon | 12 Yrs Exp.</p>
                         <p  className='head'> <b>Practice Area:</b> Ankle sprain, Foot pain</p>
@@ -152,7 +152,7 @@ const Doctors = () => {
                     <span class="material-icons">favorite_border</span>
                     </div>
 
-                    <div className="left-container">
+                    <div className="left-container-doc">
                         <img
                             src={doc}
                             alt=''
@@ -162,7 +162,7 @@ const Doctors = () => {
 
                     </div>
 
-                    <div className="right-container">
+                    <div className="right-container-doc">
                         <h4 className='head'> Dr Amola Kumari, M.D</h4>
                         <p  className='head'>Orthopaedic surgeon | 12 Yrs Exp.</p>
                         <p  className='head'> <b>Practice Area:</b> Ankle sprain, Foot pain</p>

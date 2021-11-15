@@ -13,6 +13,7 @@
 }
 .first-story{
     padding: 20px;
-    border: 2px solid #dc3545;
+    margin-right: 40px;
+    border: 1px solid #dc3545;
     border-radius: 15px;
 }

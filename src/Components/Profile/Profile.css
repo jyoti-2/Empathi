@@ -89,7 +89,7 @@
   line-height: 0.5;
 }
 
-.btns{
+.btns-profile{
   bottom: 0;
   left: 0;
   border-radius: 20px;
@@ -109,7 +109,7 @@
   justify-content: space-evenly;
   cursor: pointer;
 }
-.item-prof{
+.item-profile{
   width: 100%;
   padding: 0px;
   margin: 1px;

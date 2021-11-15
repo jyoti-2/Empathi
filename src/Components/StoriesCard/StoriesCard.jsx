@@ -1,18 +1,18 @@
 import React from 'react'
 import './StoriesCard.css';
-import PatStory from "./../../assets/pat_story.jpg";
+//import PatStory from "./../../assets/pat_story.jpg";
 
 const Stories = () => {
     return (
         <div className="story-container" id = "stories">
             
-            <div className="right-container">
+            {/* <div className="right-container">
             <img
             src={PatStory}
             alt=''
             className= "story-img"
             />
-            </div>
+            </div> */}
             <div className="left-container">
                 <div className="first-story">
                     <h4>Visited For Osteoarthritis</h4><br/>

@@ -8,7 +8,6 @@
   margin-top: 40px;
   margin-left: 20%;
   margin-right: 20%;
-  
   border-radius: 20px;
   padding: 0px;
 
@@ -42,7 +41,7 @@
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
-.left-container {
+.left-container-doc {
   display: flex;
   flex-direction: column;
   padding: 0px;
@@ -57,7 +56,7 @@
   vertical-align: middle;
 }
 
-.right-container {
+.right-container-doc {
   display: flex;
   flex-direction: column;
   padding-left: 0px;
