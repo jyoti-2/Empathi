@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Empathi/static/css/main.ccaddbb9.chunk.css",
-    "main.js": "/Empathi/static/js/main.f58ed5c2.chunk.js",
-    "main.js.map": "/Empathi/static/js/main.f58ed5c2.chunk.js.map",
+    "main.css": "/Empathi/static/css/main.6ee585ab.chunk.css",
+    "main.js": "/Empathi/static/js/main.0507d999.chunk.js",
+    "main.js.map": "/Empathi/static/js/main.0507d999.chunk.js.map",
     "runtime-main.js": "/Empathi/static/js/runtime-main.21e6037a.js",
     "runtime-main.js.map": "/Empathi/static/js/runtime-main.21e6037a.js.map",
     "static/css/2.4be38407.chunk.css": "/Empathi/static/css/2.4be38407.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.afe81dc4.chunk.js.map": "/Empathi/static/js/2.afe81dc4.chunk.js.map",
     "index.html": "/Empathi/index.html",
     "static/css/2.4be38407.chunk.css.map": "/Empathi/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.ccaddbb9.chunk.css.map": "/Empathi/static/css/main.ccaddbb9.chunk.css.map",
+    "static/css/main.6ee585ab.chunk.css.map": "/Empathi/static/css/main.6ee585ab.chunk.css.map",
     "static/js/2.afe81dc4.chunk.js.LICENSE.txt": "/Empathi/static/js/2.afe81dc4.chunk.js.LICENSE.txt",
     "static/media/HomePage.60ab6844.jpg": "/Empathi/static/media/HomePage.60ab6844.jpg",
     "static/media/In_person.bd1a1ab0.jpg": "/Empathi/static/media/In_person.bd1a1ab0.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.21e6037a.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.afe81dc4.chunk.js",
-    "static/css/main.ccaddbb9.chunk.css",
-    "static/js/main.f58ed5c2.chunk.js"
+    "static/css/main.6ee585ab.chunk.css",
+    "static/js/main.0507d999.chunk.js"
   ]
 }
