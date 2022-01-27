@@ -82,7 +82,7 @@ class Profile extends React.Component{
                     <p className="desc">Dr. Amola Kumar is an Orthopedics and Joint replacement Surgeon in Indore having more than 10 years of experience in the field of Orthopaedic surgery. She completed his Six years of Orthopaedic training from prestigious All India Institute of Medical Sciences (AIIMS), New Delhi . Dr. Kumar specializes in Knee & Hip Replacement, Computer navigated TKR, Arthroscopic Knee surgery & Complex Fractures. He has experience of performing more than 2000 knee replacement till date</p>
                     
                     
-                   <div className="row">
+                   {/* <div className="row">
                         <div className="col-one">
                             <h6><b>Hospital -  </b></h6>
                             <p> XYZ Hospital, HP Avenue(9:00 AM - 5:00 PM)</p>
@@ -97,7 +97,7 @@ class Profile extends React.Component{
                             <h6> <b>Pricing - </b> </h6>
                             <p> ₹500 per session</p>
                        </div>
-                   </div>
+                   </div> */}
 
                 </div>
             </div>
